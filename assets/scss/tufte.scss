@@ -447,14 +447,12 @@ label.marginnote-ind {
     label.marginnote-ind {
         display: inline;
     }
-    .sidenote
-    // , .marginnote
-    {
+    .sidenote,
+    .marginnote {
         display: none;
     }
     .margin-toggle:checked + .sidenote,
-    .margin-toggle:checked + .marginnote,
-    .marginnote {
+    .margin-toggle:checked + .marginnote {
         display: block;
         float: left;
         left: 1rem;
